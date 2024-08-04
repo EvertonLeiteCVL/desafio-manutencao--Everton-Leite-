@@ -1,5 +1,5 @@
 /*o Root vai definir que as VARs (--color) funcionem corretamente dentro do CSS */
-:root {
+:root { 
     --color-light-gray: #f5f5f5;
     --color-black: #000000; 
     --color-dark-gray: #2e2e2e;
