@@ -1,6 +1,6 @@
 function mostrarMensagem() {
     alert('Saiba Mais clicado!');
-}
+} 
 
 // chamando função para mostrar os produtos
 function mostrarProdutos() {
