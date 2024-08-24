@@ -2,10 +2,10 @@
 
  
 **Estrutura do Projeto**
-Arquivo HTML principal que contém a estrutura do site.
-Estilos CSS que define a aparência do site.
-Arquivo JavaScript para funcionalidades interativas.
-Pasta que contém as imagens usadas no site.
+Arquivo HTML principal que contém a estrutura do site,
+estilos CSS que define a aparência do site,
+arquivo JavaScript para funcionalidades interativas e
+pasta que contém as imagens usadas no site.
 
 **Tecnologias Utilizadas**
 HTML: Estrutura e conteúdo do site.
