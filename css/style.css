@@ -1,4 +1,4 @@
-/*o Root vai definir que as VARs (--color) funcionem corretamente dentro do CSS */
+/* Root vai definir que as VARs (--color) funcionem corretamente dentro do CSS */
 :root {
     --color-light-gray: #f5f5f5;
     --color-black: #000000; 
@@ -22,7 +22,6 @@ body {
     padding-top: 60px; /* Espaço para o header fixo */
 }
 
-
 /* Navbar */
 .navbar {
     background-color: var(--color-dark-gray);
@@ -31,7 +30,7 @@ body {
     top: 0;
     left: 0;
     width: 100%;
-    z-index: 1001; /* Coloca a navbar acima do header */
+    z-index: 1001; 
 }
 
 .navbar ul {
@@ -62,13 +61,13 @@ body {
 
 header {
     background-color: var(--color-blue-gray); 
-    color: var(--color-white);
+    color: var(--color-black); 
     display: flex;
     flex-wrap: wrap; 
     justify-content: space-between;
     align-items: center;
-    padding: 15px 15px; /*garante que o texto se encaixe na proporção */
-    position: fixed; /*ajuda  a fixar o header no topo */
+    padding: 15px 15px; 
+    position: fixed; 
     top: 0;
     left: 0;
     width: 100%;
@@ -79,40 +78,40 @@ header {
 header h1 {
     margin: 0;
     font-size: 2.5em;
-    font-weight: 700; /* deixa o texto em negrito */
+    font-weight: 700; 
+    color: var(--color-black); 
 }
 
 .services-box h2 {
-    color: var(--color-dark-gray);
+    color: var(--color-black); 
     margin: 0;
-    font-size: 1.2em; /* fonte do subtítulo */
+    font-size: 1.2em; 
 }
 
 .services-box ul {
     list-style-type: none;
     padding: 0;
     margin: 0;
-    font-size: 1em; /* Ajusta o tamanho da fonte dos itens da lista, caso coloquemos um*/
+    font-size: 1em; 
 }
 
 .services-box li {
-    margin-bottom: 10px; /* Aumenta o espaço entre os itens da lista */
+    margin-bottom: 10px; 
 }
-
 /* Estilos dos botões */
 .cta-button, .contact-button {
     display: inline-block;
-    padding: 10px 20px; /* Aumenta o padding dos botões */
-    margin-top: 5px; /* Ajusta a margem superior dos botões */
+    padding: 10px 20px;
+    margin-top: 5px;
     text-decoration: none;
     color: var(--color-white); 
     background-color: var(--color-blue); 
-    border-radius: 4px; /* Ajusta o raio das bordas dos botões */
+    border-radius: 4px; 
     transition: background-color 0.3s;
-    font-size: 1em; /* Ajusta o tamanho da fonte dos botões */
+    font-size: 1em; 
 }
 
-/*Botão CTA */
+/* Botão CTA */
 .cta-button:hover, .contact-button:hover {
     background-color: var(--color-darker-blue); 
 }
@@ -120,24 +119,24 @@ header h1 {
 /* Estilo do banner */
 .banner {
     background-color: var(--color-pale-blue); 
-    color: var(--color-dark-gray);
+    color: var(--color-black);
     padding: 20px;
     text-align: center;
-    margin-top: 20px; /* Adiciona espaço acima da seção banner */
-    position: relative; /* Necessário para posicionar a imagem de forma absoluta dentro do banner */
+    margin-top: 20px; 
+    position: relative; 
 }
 
 .banner img {
-    max-width: 100%; /* Garante que a imagem não ultrapasse a largura do banner */
-    height: auto; /* Mantém a proporção da imagem */
-    border-radius: 8px; /* Adiciona bordas arredondadas à imagem */
+    max-width: 100%; 
+    height: auto; 
+    border-radius: 8px; 
 }
 
 .banner h2 {
-    font-size: 2em; /* Ajusta o tamanho da fonte do texto sobreposto */
+    font-size: 2em; 
     margin: 0;
+    color: var(--color-white); 
 }
-
 /* Estilos das seções de produtos e contato */
 .section {
     padding: 40px 20px;
@@ -152,10 +151,11 @@ header h1 {
     max-width: 800px;
     margin: 0 auto;
     text-align: center;
+    color: var(--color-black); 
 }
 
 .products h2, .contact h2, .about h2 {
-    color: var(--color-dark-gray);
+    color: var(--color-black); 
 }
 
 /* Estilos do rodapé */
@@ -169,7 +169,7 @@ footer {
     margin-top: 20px;
 }
 
-/* deixa a pagina responsiva */
+/* Deixa a página responsiva */
 @media (max-width: 768px) {
     header {
         flex-direction: column;
@@ -187,11 +187,11 @@ footer {
     }
 
     .banner img {
-        width: 100%; /* Ajusta a largura da imagem para ocupar toda a largura do banner em telas pequenas */
+        width: 100%; /* Ajusta a largura da imagem */
     }
 }
 
-/* deixa a pagina responsiva */
+/* Deixa a página responsiva */
 @media (max-width: 480px) {
     .banner h2 {
         font-size: 1.5em;
